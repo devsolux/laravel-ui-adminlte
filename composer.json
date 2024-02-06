@@ -1,0 +1,32 @@
+{
+    "name": "devsolux/laravel-ui-adminlte",
+    "type": "library",
+    "description": "Laravel UI for AdminLTE",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Baris Aydin",
+            "email": "devsolux@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0",
+        "laravel/ui": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevSolux\\AdminLTEPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevSolux\\AdminLTEPreset\\AdminLTEPresetServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
